@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding:0;
+
+}
+
+body {
+
+    font-family: 'Audiowide', cursive;
+    font-weight: 400;
+    user-select: none;
+}
+
+
+    
+    
+.header {
+    height: 12vh;
+
+}
+
+.heading {
+    position: relative;
+    top: 15px;
+    left: 100px;
+    letter-spacing: 5px;
+    color: #444040;
+}
+
+.navigation {
+    position: relative;
+    left: 400px;
+    top: -25px;
+}
+.links {
+    margin: 0px 30px;
+    top: 0px;
+    text-decoration: none;
+    transition: all 0.2s;
+    color: #444040;
+    
+}
+
+.links:hover {
+    color: #aaaaaa;
+}
+
+.btn {
+    padding: 15px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    
+   outline: none;
+    border: none;
+    background-color: rgb(255, 82, 52);
+    color: white
+
+    
+    
+}
+
+.btn:hover {
+     transition: all 0.2s;
+    background-color: rgb(235, 63, 32);
+    cursor: pointer;
+}
+
+.middlebody {
+    height: 100vh;
+    background-color: #d1caca86;
+    
+
+}
+
+.paragraph1 {
+
+    position: relative;
+    top: 160px;
+    left: 250px;
+    color: rgb(216, 77, 77);
+    letter-spacing: 2px;
+    font-weight: bolder;
+    line-height: 1.7;
+    
+
+}
+
+.heading2 {
+    color: rgba(8, 54, 70, 0.822);
+    font-weight: bolder;
+    position: relative;
+    top: 170px;
+    left: 240px;
+    font-size: 40px
+    
+    
+}
+
+.paragraph2 {
+    
+    
+    position: relative;
+    top: 190px;
+    left: 240px;
+    color: #4b4040;
+    line-height: 1.7;
+    font-weight: bold;
+    
+
+}
+
+.btn1 {
+    position: relative;
+    top: -300px;
+    left: 240px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    color: wheat;
+    font-weight: bold;
+    border: none;
+     background-color: rgb(240, 68, 37)
+     
+     
+     
+}
+    
+.btn1:hover {
+    transition: all 0.2s;
+    background-color: rgb(214, 50, 21);
+}
+
+.btn2 {
+    position: relative;
+    top: -300px;
+    left: 270px;
+    padding: 10px 30px;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: rgba(240, 69, 39, 0.856);
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: transparent;
+    
+}
+.btn2:hover {
+    background-color: rgba(255, 255, 255, 0.438);
+    box-shadow: 2px  2px #aaaaaa;
+}
+
+.bgimage {
+    position: relative;
+    
+    left: 520px;
+    top: -200px;
+    height: 550px;
+    
+    
+    
+    
+    
+}
+
+
+
+.heading3 {
+    position: relative;
+    font-size: 25px;
+    top: 55px;
+    left: 200px;
+    line-height: 1.7;
+    display: inline;
+    text-align: center;
+    color: rgba(6, 33, 44, 0.767);
+    font-weight: bold;
+    
+    
+}
+
+
+.heading4 {
+    position: relative;
+    font-size: 30px;
+    top: -30px;
+    left: 800px;
+    line-height: 1.7;
+    color: rgba(10, 45, 56, 0.849);
+    font-weight: bold;
+    
+    
+}
+
+.copyright {
+    color: #525050;
+    text-align: center;
+    font-weight: bold;
+}
+
+.bodyheading {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 30px;
+    color:rgb(30, 72, 87)
+}
+
+.contact {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 50px;
+}
+
+.form {
+    text-align: center;
+    background-color: #d1caca86;
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 40px;
+    border: 1px solid #777;
+}
+
+.input {
+    margin: 10px 0;
+    width: 100%;
+    height: 40px;
+    padding: 0 5px;
+    border-radius: 4px;
+    outline: #494646;
+    border: 1px solid #aaaaaa;
+    background-color: #f0f0f0;
+}
+.textarea {
+    resize: none;
+    outline: none;
+    background-color: #eceaea;
+    border:  1px solid #aaaaaa;
+    border-radius: 4px;
+    margin: 20px o;
+    padding: 5px;
+    width: 100%;
+    height:150px
+    
+    
+    
+   
+}
+
+.submit {
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: rgb(238, 56, 23);
+    color: wheat;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.input:hover {
+  border: none;
+  border-bottom: 2px solid #1d1c1c;
+
+  
+  
+}
+
+.textarea:hover {
+    border:none;
+    border: 1px solid #1d1c1c;
+}
+
+.submit:hover {
+
+    cursor: pointer;
+    background-color: rgb(202, 39, 11);
+}
+    
+
+
